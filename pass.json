@@ -1,0 +1,35 @@
+{
+    "formatVersion": 1,
+    "passTypeIdentifier" : "pass.com.ippon.psg-membership",
+    "serialNumber": "001",
+    "teamIdentifier": "254M6TE7EY",
+    "barcode": {
+        "message": "123456",
+        "format": "PKBarcodeFormatQR",
+        "messageEncoding": "iso-8859-1" 
+    },
+    "organizationName": "Paris Saint-Germain",
+    "description": "Membership card for PSG VIP.",
+    "logoText": "PSG",
+    "foregroundColor" : "rgb(255, 255, 255)",
+	"backgroundColor" : "rgb(10, 73, 138)",
+	"labelColor" : "rgb(202, 39, 41)",
+    "storeCard": 
+    {
+        "primaryFields": 
+        [
+            {
+                "key": "name",
+                "label": "NAME", 
+                "value": "Dylan Le Hir"
+            }
+         ],
+        "auxiliaryFields": [
+            { 
+                "key": "member_no",
+                "label": "Member no.",
+                "value": "123"
+            }
+        ]
+    }
+}
